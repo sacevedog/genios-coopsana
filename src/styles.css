@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-color: #ebebeb
+    background-color: #222222;
+    transition: all 1s;
+    background-image: url("assets/transparent-star-background-23.png");
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

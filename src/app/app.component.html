@@ -300,10 +300,18 @@
     align-items: center;
     text-align: center;
     font-size: 2rem;
+    color: #e4e4e4;
     border: 0px solid #000;
     margin-bottom: 32px;
     border-bottom: 1px solid #888;
     padding: 20px;
+
+    background: rgba(164, 164, 164, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 0px solid rgba(164, 164, 164, 0.3);
   }
   .wrapper{
     width: 800px;
@@ -314,7 +322,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    transition: all 0.2s ease-in-out;
+    transition: all 1s;
 
   }
 
@@ -322,8 +330,16 @@
     border-radius: 12px;
     border: 0px solid #eee;
     background-color: #fafafa;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    color: #e4e4e4;
     padding: 18px;
+    transition: all 1s;
+    
+    background: rgba(164, 164, 164, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(164, 164, 164, 0.3);
   }
 
   .item:hover{
@@ -395,7 +411,7 @@
           </div>
 
           <h2>{{item.name | titlecase}}</h2>
-          <h4 style="color: #575757;">{{item.position}}</h4>
+          <h4 style="color: #d3d3d3;">{{item.position}}</h4>
           <hr> 
           <label><strong>Habilidades</strong></label>
           <ul>
